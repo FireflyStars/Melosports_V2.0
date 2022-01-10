@@ -1,0 +1,161 @@
+
+
+
+
+
+<style>
+
+.half {
+  float: left;
+  width: 100%;
+  padding: 0 1em;
+}
+/* Acordeon styles */
+.tab1 {
+  position: relative;
+  margin-bottom: 1px;
+  width: 100%;
+  color: #fff;
+  overflow: hidden;
+}
+.half input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.half label {
+  position: relative;
+  display: block;
+  color: #484646;
+  margin-bottom:0px;
+  padding: 5px 0px;
+  background: #16a085;
+  font-weight: normal;
+  line-height: 2;
+  cursor: pointer;
+}
+.blue label {
+  background: #e5e5e6;
+}
+.tab-content1 {
+  max-height: 0;
+  overflow: hidden;
+     border: 1px solid #ccc;
+  color:#000;
+  border"1px solid #ccc;
+  -webkit-transition: max-height .35s;
+  transition: max-height .35s;
+}
+.blue .tab-content1 {
+  background: #fff;
+}
+.tab-content1 p {
+  margin: 1em;
+}
+/* :checked */
+.half input:checked ~ .tab-content1 {
+  max-height: 10em;
+}
+/* Icon */
+.half label::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 3em;
+  height: 3em;
+  line-height: 3;
+  text-align: center;
+  -webkit-transition: all .35s;
+  transition: all .35s;
+}
+
+.half input[type=radio] + label::after {
+  content: "+";
+}
+
+.half input[type=radio]:checked + label::after {
+  content: "-";
+}
+.acc1
+{
+	width: 30%;
+    
+    padding: 0px 5px;
+    border-right: 1px solid #9e9c9c;
+    float: left;
+}
+.acc2
+{
+	width: 30%;
+    
+    padding: 0px 5px;
+    border-right: 1px solid #9e9c9c;
+    float: left;
+}
+.acc3
+{
+	
+}
+.tab-content1 table{
+	    width: 90%;
+   
+    margin-left: 10%;
+}
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+<div class="half">
+					<p>Open <strong>one</strong></p>
+					<div class="tab1 blue">
+					  <input id="tab-four" type="radio" name="tabs2">
+					  <label for="tab-four"><div class="acc1">fbfjbhfhb</div><div class="acc2">jkhifuhbuh</div><div class="acc3">&nbsp;&nbsp;urghuihg</div></label>
+					  <div class="tab-content1">
+							<table>
+								<tr>
+									<td>1</td>
+									<td>kdfjghrghj <br> jhfuiehf</td>
+									<td>250 points</td>
+								</tr>
+							</table>
+									
+					  </div>
+					</div>
+					<div class="tab1 blue">
+					  <input id="tab-five" type="radio" name="tabs2">
+					  <label for="tab-five"><div class="acc1">fbfjbhfhb</div><div class="acc2">jkhifuhbuh</div><div class="acc3">&nbsp;&nbsp;urghuihg</div></label>
+					  <div class="tab-content1">
+							<table>
+								<tr>
+									<td>1</td>
+									<td>kdfjghrghj <br> jhfuiehf</td>
+									<td>250 points</td>
+								</tr>
+							</table>
+					  </div>
+					</div>
+					<div class="tab1 blue">
+					  <input id="tab-six" type="radio" name="tabs2">
+					  <label for="tab-six"><div class="acc1">fbfjbhfhb</div><div class="acc2">jkhifuhbuh</div><div class="acc3">&nbsp;&nbsp;urghuihg</div></label>
+					  <div class="tab-content1">
+							<table>
+								<tr>
+									<td>1</td>
+									<td>kdfjghrghj <br> jhfuiehf</td>
+									<td>250 points</td>
+								</tr>
+							</table>
+					  </div>
+					</div>
+				  </div>

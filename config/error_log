@@ -1,0 +1,32 @@
+[30-Jun-2018 11:36:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/melonetworks/public_html/melosports/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/melonetworks/public_html/melosports/config/database.php on line 16
+[30-Jun-2018 11:36:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/melonetworks/public_html/melosports/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/melonetworks/public_html/melosports/config/database.php on line 16
+[30-Jun-2018 11:58:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/melonetworks/public_html/melosports/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/melonetworks/public_html/melosports/config/database.php on line 16
+[30-Jun-2018 11:58:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/melonetworks/public_html/melosports/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/melonetworks/public_html/melosports/config/database.php on line 16
+[30-Jun-2018 11:58:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/melonetworks/public_html/melosports/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/melonetworks/public_html/melosports/config/database.php on line 16
+[30-Jun-2018 11:58:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/melonetworks/public_html/melosports/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/melonetworks/public_html/melosports/config/database.php on line 16
+[05-Jul-2018 13:11:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/melonetworks/public_html/melosports/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/melonetworks/public_html/melosports/config/database.php on line 16
+[05-Jul-2018 13:11:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/melonetworks/public_html/melosports/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/melonetworks/public_html/melosports/config/database.php on line 16

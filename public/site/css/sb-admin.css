@@ -1,0 +1,519 @@
+@import url("checkbox.css");
+/*!* Start Bootstrap - SB Admin Bootstrap Admin Template (http://startbootstrap.com)* Code licensed under the Apache License v2.0.* For details, see http://www.apache.org/licenses/LICENSE-2.0.*/
+
+@import url('https://fonts.googleapis.com/css?family=Marmelad');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700');
+body {
+    margin-top: 100px;
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+    color: #656f7d;
+    overflow-x: hidden;
+}
+@media(min-width:768px) {
+    body {
+        margin-top: 98px;
+    }
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #656f7d
+}
+h1 {
+    font-size: 16px;
+}
+a {
+    transition: all .2s ease-in-out;
+    color: #44a1ef;
+}
+.btn {
+    border-radius: 2px;
+    border: none;
+}
+.button {
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+.btn-success {
+    background-color: #97d881;
+}
+.btn-success:hover {
+    background-color: #7ac063;
+}
+.btn-dark {
+    background-color: #656f7d;
+    color: #fff;
+}
+.btn-dark:hover {
+    background-color: #515b6a;
+    color: #fff;
+}
+.btn-default {
+    color: #515b6a;
+}
+.btn-primary {
+    background-color: #44a1ef;
+    color: #fff;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #328edb;
+    color: #fff;
+}
+.btn-danger {
+    background: #f16a43;
+}
+.btn-gray {
+    background-color: #d8dcd9;
+    color: #656f7d;
+}
+.btn-gray:hover {
+    background-color: #e4e5e4;
+    color: #656f7d;
+}
+.btn-paypal {
+    background-color: #44a1ef;
+}
+.btn-paypal:hover {
+    background-color: #3894e2;
+}
+.btn-card {
+    background-color: #97d881;
+}
+.btn-card:hover {
+    background-color: #84cf6b;
+}
+.btn-bank {
+    background-color: #656f7d;
+}
+.btn-bank:hover {
+    background-color: #536072;
+}
+.btn.btn-facebook {
+    background: #3062cc;
+    color: #fff;
+    border-color: #3062cc;
+}
+.btn.btn-facebook:hover,
+.btn.btn-facebook:focus {
+    background: #29487d;
+    color: #fff;
+    border-color: #29487d;
+}
+.btn.btn-facebook:focus:hover,
+.btn.btn-facebook:active:hover {
+    background: #29487d;
+    color: #fff;
+    border-color: #29487d;
+}
+.btn.btn-google-plus {
+    background: #dd4d42;
+    color: #fff;
+    border-color: #dd4d42;
+}
+.btn.btn-google-plus:hover,
+.btn.btn-google-plus:focus {
+    background: #cb4539;
+    color: #fff;
+    border-color: #cb4539;
+}
+.btn.btn-google-plus:focus:hover,
+.btn.btn-google-plus:active:hover {
+    background: #b52b1f;
+    color: #fff;
+    border-color: #b52b1f;
+}
+.social-logins .btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px !important;
+    font-size: 14px;
+}
+.social-logins .btn i.fa {
+    margin-right: 5px;
+}
+.checkbox-inline {
+    margin: 0 0 20px
+}
+.tooltip > .tooltip-inner {
+    padding: 10px;
+    font-size: 12px;
+    line-height: 12px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .5)
+}
+.positive + .tooltip > .tooltip-inner {
+    background-color: #44a1ef;
+}
+.positive + .tooltip.bottom > .tooltip-arrow {
+    border-bottom-color: #44a1ef;
+}
+.default + .tooltip > .tooltip-inner {
+    background-color: #f8fafb;
+    color: #656f7d;
+    text-shadow: none;
+}
+.default + .tooltip.left > .tooltip-arrow {
+    border-left-color: #f8fafb;
+}
+.default + .tooltip.right > .tooltip-arrow {
+    border-right-color: #f8fafb;
+}
+aside hr {
+    margin: 0 0 10px;
+}
+.btn-lg.button {
+    font-size: 16px;
+}
+#wrapper {
+    padding-left: 0;
+}
+#page-wrapper {
+    width: 100%;
+    padding: 0;
+    min-height: 600px
+}
+.huge {
+    font-size: 50px;
+    line-height: normal;
+}
+.badge-alert {
+    background: #f16a43;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+}
+.badge-primary {
+    background: #44a1ef;
+}
+.media > .pull-left {
+    padding-right: 20px;
+}
+.text-muted {
+    color: #656f7d
+}
+.breadcrumb {
+    background: none;
+    font-size: 14px;
+    color: #656f7d;
+    margin: 0 0 26px;
+    padding: 0;
+}
+.breadcrumb > li + li {
+    padding-left: 30px;
+    position: relative;
+}
+.breadcrumb > li + li::before {
+    content: '';
+    background: url(../images/breadcrumb-arrow.png) no-repeat left top;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    left: 5px;
+    top: 3px
+}.logo img {
+    padding: 10px 25px;
+    background: #5b35bb !important;
+    border-radius: 3px;
+}
+.input-group{margin-bottom: 18px;}
+body.login-screen .login-content {
+    background: #fff;
+    max-width: 700px;
+    position: relative;border-radius: 5px;
+
+    width: 100%;
+    margin: 150px auto;
+    padding: 30px;
+    background-color: #f8fafb;
+    box-shadow: 0px 0px 139px 0.00px rgba(147, 161, 185, 0.59);
+}
+.login-content .logo {
+    padding: 0;
+}
+.login-content p {
+    font-size: 16px;
+}
+.login-content .menus {
+    background-color: #f2f7f8;
+    border: #e9f0f3 1px solid;
+    text-align: center;
+    max-height: 58px;
+    margin: 0 0 60px;
+}
+.login-content .menus ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    background-color: #ffffff;
+}
+.login-content .menus ul li {
+    display: inline-block;
+    margin: 0 0 0 -4px;
+    padding: 15px 50px;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #66707e;
+}
+.login-content .menus ul li + li a {
+    border-left: 1px solid #e9f0f3
+}
+.login-content .menus ul li a i {
+    display: inline-block;
+    font-size: 26px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.login-content .menus ul li a:hover,
+.login-content .menus ul li.active a {
+    background-color: #46a1ee;
+    color: #Fff;
+    .login-content .footer {
+    max-width: 880px;
+    width: 100%;
+    margin: 80px auto 0;
+    display: block;
+}
+.login-content .footer a {
+    line-height: 34px;
+    font-size: 20px;
+}
+.login-content .footer a .icon {
+    float: left;
+    font-size: 34px;
+}
+.login-content p.account {
+    font-size: 20px;
+}
+.login-content .guide p {
+    display: inline-block;
+    background: #f2f7f8;
+    border-radius: 3px;
+    border: 5px solid #f0f2f3;
+    padding: 5px 60px;
+    margin: 0 0 40px;
+}
+
+.login-content .logo {
+        padding: 30px 0;
+    }
+    .loginform .buttons {
+        margin: 40px 0 20px 0;
+    }
+    .login-content .menus {
+        margin: 0 0 30px;
+    }
+    .login-content .footer {
+        margin: 20px auto 0;
+    }
+    body.login-screen .login-content {
+        padding-bottom: 50px;
+        max-width: 1000px;
+        margin: 40px 0;
+        margin-top:90px; 
+    }
+    @media(max-width:768px) {
+    body.login-screen .login-content {
+        margin: 0;
+    }
+    .login-content .menus ul li {
+        padding: 15px;
+        font-size: 13px;
+    }
+    .loginform {
+        padding: 15px;
+    }
+    .login-content .footer {
+        text-align: center;
+    }
+    .login-content .footer a {
+        float: none !important;
+        display: inline-block;
+    }
+}
+
+/*Demo Credentials */
+
+.login-content {
+    position: relative;
+}
+.login-user-details {
+    display: none;
+}
+@media(min-width:768px) {
+    .login-user-details {
+        position: absolute;
+        right: 30px;
+        min-width: 180px;
+        top: 200px;
+        background-color: #d9edf7;
+        padding: 15px 15px;
+        display: block;
+    }
+    .login-user-details li {
+        text-align: center;
+        font-size: 18px;
+    }
+    .login-user-details li.title {
+        color: #44a1ef;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    .login-user-details li + li {
+        margin-top: 5px;
+    }
+    .login-user-details li a {
+        padding: 5px 10px;
+        display: block;
+        border: 1px solid #44a1ef;
+        text-decoration: none;
+        border-radius: 3px;
+        cursor: pointer;
+        background: #44a1ef;
+        color: #fff;
+    }
+    .login-user-details li a:hover {
+        color: #44a1ef;
+        background: #FFF;
+        border-color: #44a1ef;
+    }
+}
+@media(min-width:1367px) {
+    .login-user-details {
+        top: 280px;
+    }
+}
+
+
+.installation-page .loginform .input-group .input-group-addon {
+    padding-left: 25px;
+    padding-right: 25px
+}
+.installation-page .loginform .input-group .input-group-addon .fa {
+    font-size: 20px;
+    padding-left: 0;
+    color: #adbbc7;
+}
+.installation-page .loginform .info h3 {
+    font-weight: 600;
+    margin: 0;
+}
+.installation-page .loginform .info {
+    margin-bottom: 20px;
+}
+.installation-page .loginform {
+    max-width: 900px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+.loginform {
+    max-width: 520px;
+    margin: 0 auto 40px
+}
+.loginform .input-group + .input-group {
+    margin: 40px 0 0;
+}
+.loginform .input-group {
+    position: relative;
+}
+
+.loginform .input-group-addon {
+    border-color: #e1e8f8;
+    background: #fff;
+    border-radius: 0px;
+    padding: 6px 10px 6px 30px;
+}
+.loginform .input-group-addon .icon {
+    color: #a9c2ca;
+    font-size: 32px;
+    margin: 0
+}
+.loginform .form-control {
+    border-left-color: #fff;
+    height: 60px;
+    font-size: 24px;
+}
+.loginform .form-control:focus {
+    border-left-color: #46a1ee;
+}
+.loginform .form-control + .instruction {
+    display: none
+}
+.loginform .form-control:focus + .instruction {
+    display: block;
+}
+select.form-control.input-sm {
+    padding-right: 40px;
+}
+.loginform::-webkit-input-placeholder {
+    color: #a9c2ca;
+}
+.loginform:-moz-placeholder {
+    color: #a9c2ca;
+}
+.loginform::-moz-placeholder {
+    color: #a9c2ca;
+}
+.loginform:-ms-input-placeholder {
+    color: #a9c2ca;
+}
+.loginform .buttons {
+    margin: 50px 0
+}
+.loginform .buttons .button {
+    min-width: 250px;
+    height: 60px;
+}
+.text-success {
+    color: #00d664 !important;
+}.login-content .logo{margin-bottom: 20px !important}
+.btn-success {
+    background-color: rgb(0, 214, 100) !important; 
+}
+.loginform .buttons {
+        margin: 40px 0 20px 0;
+    }
+
+    @media(max-width:768px) {
+    body.login-screen .login-content {
+        margin: 0;
+    }
+    .login-content .menus ul li {
+        padding: 15px;
+        font-size: 13px;
+    }
+    .loginform {
+        padding: 15px;
+    }
+    .login-content .footer {
+        text-align: center;
+    }
+    .login-content .footer a {
+        float: none !important;
+        display: inline-block;
+    }
+}
+.input-group-addon {
+    
+    
+    background-color: #f3f3f3;
+    border: 1px solid #e4e4e4;
+    
+}.form-control{border-color: #e4e4e4;box-shadow: none;}
+.login-content p{font-size: 14px;color: #838383;margin-top: -10px;}

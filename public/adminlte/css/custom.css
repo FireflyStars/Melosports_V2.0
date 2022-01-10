@@ -1,0 +1,69 @@
+.box-ws {
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+    border: 0;
+}
+
+.state-media{
+        padding: 20px;
+     
+    margin-bottom: 20px;
+    background-clip: padding-box;
+    background-color: #ffffff;
+}
+@media(min-width: 1200px){
+    .state-media .media-left{    padding-right: 15px;}
+}
+.state-media h4{
+    color: #455a64;font-size: 24px;font-weight: 600;margin-top: 6px;margin-bottom: 4px;
+}
+.state-media a, .state-media p{
+    color: #99abb4;font-size: 16px;font-weight: 400;
+}
+.state-icn{
+        height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.state-icn .fa{
+        font-size: 28px;
+    line-height: 60px;
+}
+.box-ws{
+        border-radius: 5px ;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+    border: 0;
+}
+
+.bg-icon-info{
+        background-color: rgba(52, 211, 235, 0.2);
+    border: 1px solid #34d3eb;
+ 
+    color: #34d3eb !important;
+}
+.bg-icon-pink {
+    background-color: rgba(251, 109, 157, 0.2);
+    border: 1px solid #fb6d9d;color: #fb6d9d;
+}
+.bg-icon-purple {
+    background-color: rgba(114, 102, 186, 0.2);
+    border: 1px solid #7266ba;    color: #7266ba;
+}
+.bg-icon-success {
+    background-color: rgba(129, 200, 104, 0.2);
+    border: 1px solid #81c868;color: #81c868;
+}
+.bg-icon-blue {
+    background-color: #0044cc1c;
+    border: 1px solid #0044cc94;
+    color: #0044ccad;
+}
+.bg-icon-orange {
+        background-color: #f16a4317;
+    border: 1px solid #f16a43e8;
+    color: #f16a43d9;
+}
